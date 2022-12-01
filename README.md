@@ -81,7 +81,7 @@ behaviors:
 ![image](https://user-images.githubusercontent.com/114181560/205019212-65af9247-84bd-45c6-8c4f-daf0e335ce55.png)
 Установилa TensorBoard. Перейдя по выведенной ссылке выведенной получила следующие графики:
 
-![image](https://user-images.githubusercontent.com/114181560/205023662-8364ad40-2f53-45db-bb96-a00c5bff637e.png)
+![1](https://user-images.githubusercontent.com/114181560/205024781-cdec15c7-2483-4c42-8d71-8b1d529f1d98.png)
 # Задание №2
 
 
@@ -89,30 +89,31 @@ behaviors:
 
 Изменил batch_size с 1024 на 2000. Занаво запустила обучение. И получила новые графики.
 
-![image](https://user-images.githubusercontent.com/114181560/205019412-0e69b4c7-4d8f-4116-8467-35314e01167e.png)
+![2](https://user-images.githubusercontent.com/114181560/205024813-97dc013d-7b58-4121-841b-ceea33cb2515.png)
 
 График стал всегда равен 1.
 
 Изменила batch_size с 1024 на 300. 
 
-![image](https://user-images.githubusercontent.com/114181560/205019494-ac9ecd7b-8716-48f0-98f0-49052aa3f051.png)
+![3](https://user-images.githubusercontent.com/114181560/205024894-f67c371a-cf6b-4de4-bf43-332b91e3aa91.png)
 
 График стал более кривым.
 
 Вернула batch_size 1024, изменила lambd с 0.95 на 0.9
 
-![image](https://user-images.githubusercontent.com/114181560/205019532-11d4e370-ff11-4a2a-8291-6f331bcdce4e.png)
+![4](https://user-images.githubusercontent.com/114181560/205024958-c0e2d8b0-ecce-4ca2-a9f6-723165611c77.png)
+
 
 график стал более линеен.
 Оставила lambd 0.9 и изменила epsilon с 0.2 на 0.1
 
-![image](https://user-images.githubusercontent.com/114181560/205019589-58d55fd4-a64f-43f0-a670-36bb097effdd.png)
+![5](https://user-images.githubusercontent.com/114181560/205024990-54fc4d2b-648e-48a3-8074-d9d5b673f5a4.png)
 
 Практически нет изменений.
 
 Изменила num_epoch с 3 на 1.
 
-![image](https://user-images.githubusercontent.com/114181560/205019637-23b7702c-093c-4e5a-ab07-4d34a27ce4e7.png)
+![6](https://user-images.githubusercontent.com/114181560/205025014-585a0fe1-23b8-4d50-bce0-628a86e82642.png)
 
 Практически нет изменений.
 
