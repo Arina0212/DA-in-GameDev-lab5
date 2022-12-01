@@ -79,6 +79,7 @@ behaviors:
       window: 10
 ```
 ![image](https://user-images.githubusercontent.com/114181560/205019212-65af9247-84bd-45c6-8c4f-daf0e335ce55.png)
+
 Установилa TensorBoard. Перейдя по выведенной ссылке выведенной получила следующие графики:
 
 ![1](https://user-images.githubusercontent.com/114181560/205024781-cdec15c7-2483-4c42-8d71-8b1d529f1d98.png)
@@ -93,11 +94,13 @@ behaviors:
 
 График стал всегда равен 1.
 
+
 Изменила batch_size с 1024 на 300. 
 
 ![3](https://user-images.githubusercontent.com/114181560/205024894-f67c371a-cf6b-4de4-bf43-332b91e3aa91.png)
 
 График стал более кривым.
+
 
 Вернула batch_size 1024, изменила lambd с 0.95 на 0.9
 
@@ -110,6 +113,7 @@ behaviors:
 ![5](https://user-images.githubusercontent.com/114181560/205024990-54fc4d2b-648e-48a3-8074-d9d5b673f5a4.png)
 
 Практически нет изменений.
+
 
 Изменила num_epoch с 3 на 1.
 
