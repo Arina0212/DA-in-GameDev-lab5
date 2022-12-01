@@ -77,11 +77,13 @@ behaviors:
       swap_steps: 10000
       play_against_latest_model_ratio: 0.5
       window: 10
-```
+``'
 ![image](https://user-images.githubusercontent.com/114181560/205019212-65af9247-84bd-45c6-8c4f-daf0e335ce55.png)
 Установилa TensorBoard. Перейдя по выведенной ссылке выведенной получила следующие графики:
 
-![image](https://user-images.githubusercontent.com/114181560/205019337-59655971-9bfa-4376-91ca-66d57f9fb9cc.png)
+![image](https://user-images.githubusercontent.com/114181560/205023662-8364ad40-2f53-45db-bb96-a00c5bff637e.png)
+# Задание №2
+
 
 Далее буду изменять 5 раз какие-либо параметры файла Economic.yaml. Задача - добиться максимальной монотонности и линейности графика Cumulative Reward.
 
