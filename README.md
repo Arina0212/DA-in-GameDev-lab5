@@ -77,7 +77,7 @@ behaviors:
       swap_steps: 10000
       play_against_latest_model_ratio: 0.5
       window: 10
-``'
+```
 ![image](https://user-images.githubusercontent.com/114181560/205019212-65af9247-84bd-45c6-8c4f-daf0e335ce55.png)
 Установилa TensorBoard. Перейдя по выведенной ссылке выведенной получила следующие графики:
 
