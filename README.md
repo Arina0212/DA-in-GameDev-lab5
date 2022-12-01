@@ -91,7 +91,7 @@ behaviors:
 
 ![2](https://user-images.githubusercontent.com/114181560/205024813-97dc013d-7b58-4121-841b-ceea33cb2515.png)
 
-График стал всегда равен 1.
+График стал равеным 1 на всей оси.
 
 
 Изменила batch_size с 1024 на 300. 
@@ -104,7 +104,6 @@ behaviors:
 Вернула batch_size 1024, изменила lambd с 0.95 на 0.9
 
 ![4](https://user-images.githubusercontent.com/114181560/205024958-c0e2d8b0-ecce-4ca2-a9f6-723165611c77.png)
-
 
 график стал более линеен.
 
